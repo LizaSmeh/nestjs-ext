@@ -1,5 +1,4 @@
-export interface UpdateBook {
-    title      : string,
-    description: string,
-    author     : string
+import { CreateBook } from "./create-book"
+
+export default interface UpdateBook extends CreateBook {
 }
